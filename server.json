@@ -1,10 +1,10 @@
 {
 "ovpn_file":[
 {"id":0,"file":"client
-dev tun2
+dev tun0
 proto udp
-remote 37.187.158.97 25000
-remote fr1.vpnbook.com 25000
+remote 37.187.158.97 53
+remote fr1.vpnbook.com 53
 resolv-retry infinite
 nobind
 persist-key
@@ -83,6 +83,7 @@ WKUgHBMRcI2s3PecuOmQspxG+D+UR3kpVBYs9F2aEZIEBuCfLuIW9Mcfd2I2NjyY
 4NDSSYp1adAh/pdhVQJBANDrlnodYDu6A+a4YO9otjd+296/T8JpePI/KNxk7N0A
 gm7SAhk379I6hr5NXdBbvTedlb1ULrhWV8lpwZ9HW2k=
 -----END RSA PRIVATE KEY-----
-</key>"},
+</key>
+"},
 {"id":1,"file":""}]
 }
